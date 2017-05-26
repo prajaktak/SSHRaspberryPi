@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9A860BD1ED8BE63006AA21F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A860BC1ED8BE63006AA21F /* AppDelegate.swift */; };
+		F9A860BF1ED8BE63006AA21F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A860BE1ED8BE63006AA21F /* ViewController.swift */; };
+		F9A860C21ED8BE63006AA21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A860C01ED8BE63006AA21F /* Main.storyboard */; };
+		F9A860C41ED8BE63006AA21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A860C31ED8BE63006AA21F /* Assets.xcassets */; };
+		F9A860C71ED8BE63006AA21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A860C51ED8BE63006AA21F /* LaunchScreen.storyboard */; };
+		F9A860D21ED8BE64006AA21F /* SSHRaspberryPiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A860D11ED8BE64006AA21F /* SSHRaspberryPiTests.swift */; };
+		F9A860DD1ED8BE64006AA21F /* SSHRaspberryPiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A860DC1ED8BE64006AA21F /* SSHRaspberryPiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9A860CE1ED8BE64006AA21F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9A860B11ED8BE63006AA21F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9A860B81ED8BE63006AA21F;
+			remoteInfo = SSHRaspberryPi;
+		};
+		F9A860D91ED8BE64006AA21F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9A860B11ED8BE63006AA21F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9A860B81ED8BE63006AA21F;
+			remoteInfo = SSHRaspberryPi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9A860B91ED8BE63006AA21F /* SSHRaspberryPi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSHRaspberryPi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A860BC1ED8BE63006AA21F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9A860BE1ED8BE63006AA21F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9A860C11ED8BE63006AA21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9A860C31ED8BE63006AA21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9A860C61ED8BE63006AA21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9A860C81ED8BE63006AA21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A860CD1ED8BE64006AA21F /* SSHRaspberryPiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSHRaspberryPiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A860D11ED8BE64006AA21F /* SSHRaspberryPiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHRaspberryPiTests.swift; sourceTree = "<group>"; };
+		F9A860D31ED8BE64006AA21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A860D81ED8BE64006AA21F /* SSHRaspberryPiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSHRaspberryPiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A860DC1ED8BE64006AA21F /* SSHRaspberryPiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHRaspberryPiUITests.swift; sourceTree = "<group>"; };
+		F9A860DE1ED8BE64006AA21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9A860B61ED8BE63006AA21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A860CA1ED8BE64006AA21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A860D51ED8BE64006AA21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9A860B01ED8BE63006AA21F = {
+			isa = PBXGroup;
+			children = (
+				F9A860BB1ED8BE63006AA21F /* SSHRaspberryPi */,
+				F9A860D01ED8BE64006AA21F /* SSHRaspberryPiTests */,
+				F9A860DB1ED8BE64006AA21F /* SSHRaspberryPiUITests */,
+				F9A860BA1ED8BE63006AA21F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9A860BA1ED8BE63006AA21F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9A860B91ED8BE63006AA21F /* SSHRaspberryPi.app */,
+				F9A860CD1ED8BE64006AA21F /* SSHRaspberryPiTests.xctest */,
+				F9A860D81ED8BE64006AA21F /* SSHRaspberryPiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9A860BB1ED8BE63006AA21F /* SSHRaspberryPi */ = {
+			isa = PBXGroup;
+			children = (
+				F9A860BC1ED8BE63006AA21F /* AppDelegate.swift */,
+				F9A860BE1ED8BE63006AA21F /* ViewController.swift */,
+				F9A860C01ED8BE63006AA21F /* Main.storyboard */,
+				F9A860C31ED8BE63006AA21F /* Assets.xcassets */,
+				F9A860C51ED8BE63006AA21F /* LaunchScreen.storyboard */,
+				F9A860C81ED8BE63006AA21F /* Info.plist */,
+			);
+			path = SSHRaspberryPi;
+			sourceTree = "<group>";
+		};
+		F9A860D01ED8BE64006AA21F /* SSHRaspberryPiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9A860D11ED8BE64006AA21F /* SSHRaspberryPiTests.swift */,
+				F9A860D31ED8BE64006AA21F /* Info.plist */,
+			);
+			path = SSHRaspberryPiTests;
+			sourceTree = "<group>";
+		};
+		F9A860DB1ED8BE64006AA21F /* SSHRaspberryPiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9A860DC1ED8BE64006AA21F /* SSHRaspberryPiUITests.swift */,
+				F9A860DE1ED8BE64006AA21F /* Info.plist */,
+			);
+			path = SSHRaspberryPiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9A860B81ED8BE63006AA21F /* SSHRaspberryPi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A860E11ED8BE64006AA21F /* Build configuration list for PBXNativeTarget "SSHRaspberryPi" */;
+			buildPhases = (
+				F9A860B51ED8BE63006AA21F /* Sources */,
+				F9A860B61ED8BE63006AA21F /* Frameworks */,
+				F9A860B71ED8BE63006AA21F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSHRaspberryPi;
+			productName = SSHRaspberryPi;
+			productReference = F9A860B91ED8BE63006AA21F /* SSHRaspberryPi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9A860CC1ED8BE64006AA21F /* SSHRaspberryPiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A860E41ED8BE64006AA21F /* Build configuration list for PBXNativeTarget "SSHRaspberryPiTests" */;
+			buildPhases = (
+				F9A860C91ED8BE64006AA21F /* Sources */,
+				F9A860CA1ED8BE64006AA21F /* Frameworks */,
+				F9A860CB1ED8BE64006AA21F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9A860CF1ED8BE64006AA21F /* PBXTargetDependency */,
+			);
+			name = SSHRaspberryPiTests;
+			productName = SSHRaspberryPiTests;
+			productReference = F9A860CD1ED8BE64006AA21F /* SSHRaspberryPiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9A860D71ED8BE64006AA21F /* SSHRaspberryPiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A860E71ED8BE64006AA21F /* Build configuration list for PBXNativeTarget "SSHRaspberryPiUITests" */;
+			buildPhases = (
+				F9A860D41ED8BE64006AA21F /* Sources */,
+				F9A860D51ED8BE64006AA21F /* Frameworks */,
+				F9A860D61ED8BE64006AA21F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9A860DA1ED8BE64006AA21F /* PBXTargetDependency */,
+			);
+			name = SSHRaspberryPiUITests;
+			productName = SSHRaspberryPiUITests;
+			productReference = F9A860D81ED8BE64006AA21F /* SSHRaspberryPiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9A860B11ED8BE63006AA21F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Prajakta Kulkarni";
+				TargetAttributes = {
+					F9A860B81ED8BE63006AA21F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6AC44Z6PNA;
+						ProvisioningStyle = Automatic;
+					};
+					F9A860CC1ED8BE64006AA21F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6AC44Z6PNA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9A860B81ED8BE63006AA21F;
+					};
+					F9A860D71ED8BE64006AA21F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6AC44Z6PNA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9A860B81ED8BE63006AA21F;
+					};
+				};
+			};
+			buildConfigurationList = F9A860B41ED8BE63006AA21F /* Build configuration list for PBXProject "SSHRaspberryPi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9A860B01ED8BE63006AA21F;
+			productRefGroup = F9A860BA1ED8BE63006AA21F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9A860B81ED8BE63006AA21F /* SSHRaspberryPi */,
+				F9A860CC1ED8BE64006AA21F /* SSHRaspberryPiTests */,
+				F9A860D71ED8BE64006AA21F /* SSHRaspberryPiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9A860B71ED8BE63006AA21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A860C71ED8BE63006AA21F /* LaunchScreen.storyboard in Resources */,
+				F9A860C41ED8BE63006AA21F /* Assets.xcassets in Resources */,
+				F9A860C21ED8BE63006AA21F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A860CB1ED8BE64006AA21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A860D61ED8BE64006AA21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9A860B51ED8BE63006AA21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A860BF1ED8BE63006AA21F /* ViewController.swift in Sources */,
+				F9A860BD1ED8BE63006AA21F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A860C91ED8BE64006AA21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A860D21ED8BE64006AA21F /* SSHRaspberryPiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A860D41ED8BE64006AA21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A860DD1ED8BE64006AA21F /* SSHRaspberryPiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9A860CF1ED8BE64006AA21F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9A860B81ED8BE63006AA21F /* SSHRaspberryPi */;
+			targetProxy = F9A860CE1ED8BE64006AA21F /* PBXContainerItemProxy */;
+		};
+		F9A860DA1ED8BE64006AA21F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9A860B81ED8BE63006AA21F /* SSHRaspberryPi */;
+			targetProxy = F9A860D91ED8BE64006AA21F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9A860C01ED8BE63006AA21F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A860C11ED8BE63006AA21F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9A860C51ED8BE63006AA21F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A860C61ED8BE63006AA21F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9A860DF1ED8BE64006AA21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9A860E01ED8BE64006AA21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9A860E21ED8BE64006AA21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = SSHRaspberryPi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.SSHRaspberryPi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9A860E31ED8BE64006AA21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = SSHRaspberryPi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.SSHRaspberryPi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F9A860E51ED8BE64006AA21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = SSHRaspberryPiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.SSHRaspberryPiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSHRaspberryPi.app/SSHRaspberryPi";
+			};
+			name = Debug;
+		};
+		F9A860E61ED8BE64006AA21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = SSHRaspberryPiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.SSHRaspberryPiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSHRaspberryPi.app/SSHRaspberryPi";
+			};
+			name = Release;
+		};
+		F9A860E81ED8BE64006AA21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = SSHRaspberryPiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.SSHRaspberryPiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SSHRaspberryPi;
+			};
+			name = Debug;
+		};
+		F9A860E91ED8BE64006AA21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = SSHRaspberryPiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.SSHRaspberryPiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SSHRaspberryPi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9A860B41ED8BE63006AA21F /* Build configuration list for PBXProject "SSHRaspberryPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A860DF1ED8BE64006AA21F /* Debug */,
+				F9A860E01ED8BE64006AA21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A860E11ED8BE64006AA21F /* Build configuration list for PBXNativeTarget "SSHRaspberryPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A860E21ED8BE64006AA21F /* Debug */,
+				F9A860E31ED8BE64006AA21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9A860E41ED8BE64006AA21F /* Build configuration list for PBXNativeTarget "SSHRaspberryPiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A860E51ED8BE64006AA21F /* Debug */,
+				F9A860E61ED8BE64006AA21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9A860E71ED8BE64006AA21F /* Build configuration list for PBXNativeTarget "SSHRaspberryPiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A860E81ED8BE64006AA21F /* Debug */,
+				F9A860E91ED8BE64006AA21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9A860B11ED8BE63006AA21F /* Project object */;
+}
